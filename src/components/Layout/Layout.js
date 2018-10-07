@@ -13,6 +13,7 @@ class Layout extends PureComponent {
           className={`main ${header && 'main--with-header'} ${footer &&
             'main--with-footer'}`}
         >
+          <SectionTitle className="main__title">MAIN</SectionTitle>
           {children}
         </main>
         {footer && this.renderFooter(footer)}
